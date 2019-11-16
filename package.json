@@ -23,8 +23,9 @@
     "archive": "tar cfz ./sentinl-latest.tar.gz --exclude .git --exclude .gitignore --exclude .github --exclude gradle --exclude build --exclude target --exclude sentinl-latest.tar.gz ./* && ls -alF sentinl-latest*"
   },
   "dependencies": {
-    "@elastic/datemath": "2.3.0",
-    "@elastic/eui": "4.3.0",
+    "@elastic/datemath": "link:../../packages/elastic-datemath",
+    "@elastic/eui": "^12.2.0",
+    "@elastic/kibana-ui-framework": "0.0.11",
     "@slack/client": "4.4.0",
     "angular": "1.4.8",
     "angular-chart.js": "1.1.1",
