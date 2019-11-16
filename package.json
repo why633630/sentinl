@@ -5,7 +5,7 @@
     "url": "http://github.com/sirensolutions/sentinl.git"
   },
   "name": "sentinl",
-  "version": "6.0.0",
+  "version": "7.3.1",
   "kibana": {
     "version": "7.3.1"
   },
